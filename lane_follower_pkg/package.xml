@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lane_follower_pkg</name>
+  <version>0.0.1</version>
+  <description>ROS2 node for lane detection and autonomous control using a U-Net model</description>
+
+  <maintainer email="officialsamirkc@gmail.com">Samir K C </maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>cv_bridge</depend>
+
+  <exec_depend>torch</exec_depend>
+  <exec_depend>opencv-python-headless</exec_depend>
+  <exec_depend>albumentations</exec_depend>
+</package>
